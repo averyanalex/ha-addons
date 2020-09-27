@@ -17,12 +17,10 @@ FROM $BUILD_FROM
 
 LABEL maintainer "Knut Ahlers <knut@ahlers.me>"
 
-RUN set -ex \
- && apk --no-cache add bash
 
 COPY --from=builder /src/yggdrasil    /usr/bin/
 COPY --from=builder /src/yggdrasilctl /usr/bin/
 COPY                start.sh          /usr/bin/
-RUN /usr/bin/chmod a+x /start.sh
+RUN chmod a+x /start.sh
 
 CMD [ "/start.sh" ]
