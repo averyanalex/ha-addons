@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/ash
 
 conf_file=/config/yggdrasil.conf
 
