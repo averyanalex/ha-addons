@@ -1,3 +1,6 @@
+ARG BUILD_FROM
+
+# compile yggdrasil
 FROM golang:alpine as builder
 ENV LANG C.UTF-8
 ENV YGGDRASIL_VERSION=0.3.14
@@ -12,8 +15,9 @@ RUN set -ex \
  && ./build
 
 #build container
-ARG BUILD_FROM
 FROM $BUILD_FROM
+
+ENV LANG C.UTF-8
 
 LABEL maintainer "Knut Ahlers <knut@ahlers.me>"
 
