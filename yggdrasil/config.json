@@ -7,5 +7,6 @@
   "startup": "application",
   "boot": "auto",
   "options": {},
-  "schema": {}
+  "schema": {},
+  "map": ["config:rw"]
 }
