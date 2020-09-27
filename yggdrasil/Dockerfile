@@ -19,7 +19,7 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-LABEL maintainer "Knut Ahlers <knut@ahlers.me>"
+LABEL maintainer "AveryanAlex <averyanalex@gmail.com>"
 
 
 COPY --from=builder /src/yggdrasil    /usr/bin/
