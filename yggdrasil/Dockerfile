@@ -1,7 +1,5 @@
-ENV LANG C.UTF-8
-
-# build yggdrasil
 FROM golang:alpine as builder
+ENV LANG C.UTF-8
 ENV YGGDRASIL_VERSION=0.3.14
 
 RUN set -ex \
