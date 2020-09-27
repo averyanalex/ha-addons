@@ -13,7 +13,7 @@ RUN set -ex \
 
 #build container
 ARG BUILD_FROM
-FROM alpine:3.10
+FROM $BUILD_FROM
 
 LABEL maintainer "Knut Ahlers <knut@ahlers.me>"
 
@@ -23,6 +23,6 @@ RUN set -ex \
 COPY --from=builder /src/yggdrasil    /usr/bin/
 COPY --from=builder /src/yggdrasilctl /usr/bin/
 COPY                start.sh          /usr/bin/
-RUN chmod a+x /start.sh
+RUN /usr/bin/chmod a+x /start.sh
 
 CMD [ "/start.sh" ]
