@@ -14,7 +14,7 @@ RUN set -ex \
  && git reset --hard v${YGGDRASIL_VERSION} \
  && ./build
 
-FROM FROM $BUILD_FROM
+FROM $BUILD_FROM
 
 LABEL maintainer "Knut Ahlers <knut@ahlers.me>"
 
