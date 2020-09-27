@@ -1,8 +1,7 @@
-ARG BUILD_FROM
 ENV LANG C.UTF-8
 
+# build yggdrasil
 FROM golang:alpine as builder
-
 ENV YGGDRASIL_VERSION=0.3.14
 
 RUN set -ex \
@@ -14,7 +13,9 @@ RUN set -ex \
  && git reset --hard v${YGGDRASIL_VERSION} \
  && ./build
 
-FROM $BUILD_FROM
+#build container
+ARG BUILD_FROM
+FROM alpine:3.10
 
 LABEL maintainer "Knut Ahlers <knut@ahlers.me>"
 
