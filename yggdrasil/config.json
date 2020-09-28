@@ -1,6 +1,6 @@
 {
   "name": "Yggdrasil",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "slug": "yggdrasil",
   "description": "Connect to HA remotely via Yggdrasil",
   "arch": ["aarch64", "amd64"],
@@ -9,7 +9,7 @@
   "hassio_role": "default",
   "homeassistant_api": false,
   "host_network": true,
-  "privileged": ["NET_ADMIN", "SYS_ADMIN"],
+  "privileged": ["NET_ADMIN"],
   "devices": ["/dev/net/tun:/dev/net/tun:rwm"],
   "boot": "auto",
   "options": {},

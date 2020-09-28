@@ -3,7 +3,7 @@ ARG BUILD_FROM
 # compile yggdrasil
 FROM golang:alpine as builder
 ENV LANG C.UTF-8
-ENV YGGDRASIL_VERSION=0.3.14
+ENV YGGDRASIL_VERSION=0.3.15
 
 RUN set -ex \
  && apk --no-cache add \
