@@ -12,6 +12,6 @@ To
 `    tcp://46.151.26.194:60575`
 `    tcp://82.165.69.111:61216`
 `  ]`
-But dont forget to check (https://github.com/yggdrasil-network/public-peers)[Public peers list]
+But dont forget to check public peers list at https://github.com/yggdrasil-network/public-peers
 # Security warning
 All ports of HA will be available for **everyone** in Yggdrasil. Set strong password. Sometime I will fix it.
