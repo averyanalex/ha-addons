@@ -1,4 +1,5 @@
 ARG BUILD_FROM
+ARG BUILD_ARCH
 
 # compile yggdrasil
 FROM golang:alpine as builder
@@ -12,7 +13,7 @@ RUN set -ex \
  && git clone "https://github.com/yggdrasil-network/yggdrasil-go.git" /src \
  && cd /src \
  && git reset --hard v${YGGDRASIL_VERSION} \
- && ./build
+ && GOARCH=$BUILD_ARCH ./build
 
 #build container
 FROM $BUILD_FROM
