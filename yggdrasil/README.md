@@ -15,3 +15,6 @@ To
 But dont forget to check public peers list at https://github.com/yggdrasil-network/public-peers
 # Security warning
 All ports of HA will be available for **everyone** in Yggdrasil. Set strong password. Sometime I will fix it.
+# Thanks
+Thanks to author of https://github.com/luzifer-docker/yggdrasil,
+I took this as a basis
