@@ -1,4 +1,4 @@
-name: 'Test HA Build'
+name: 'HA Build'
 
 on: [push]
 
