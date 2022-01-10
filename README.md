@@ -1,3 +1,3 @@
-# HA Addons
-This repository contain some addons, that I made to simplify your life.
-Now there is only Yggdrasil, but in feature there will be another addons
+# Averyanalex's HA Addons
+This repository contains addons that I made to make life easier.
+At this moment there is only Yggdrasil, but in feature (maybe) there will be another addons
