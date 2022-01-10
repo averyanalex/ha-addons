@@ -1,0 +1,21 @@
+name: Yggdrasil
+version: "0.4.2-1"
+slug: yggdrasil
+description: Connect to HA remotely via Yggdrasil
+url: "https://github.com/averyanalex/ha-addons/tree/main/yggdrasil"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+image: "ghcr.io/averyanalex/{arch}-ha-yggdrasil"
+map:
+  - config:rw
+startup: services
+host_network: true
+devices:
+  - /dev/net/tun:/dev/net/tun:rwm
+privileged:
+  - NET_ADMIN

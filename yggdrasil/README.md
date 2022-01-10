@@ -8,13 +8,14 @@ Replace
 To
 `  Peers:`
 `  [`
-`    tcp://89.223.121.211:5353`
-`    tcp://46.151.26.194:60575`
-`    tcp://82.165.69.111:61216`
+`    tcp://95.165.99.73:5353`
+`    tcp://ygg.loskiq.dev:17313`
+`    tcp://kazi.peer.cofob.ru:18000`
 `  ]`
-But dont forget to check public peers list at https://github.com/yggdrasil-network/public-peers
+(This list includes peers from Moscow and Saint Petersburg)
+Dont forget to check public peers list at https://github.com/yggdrasil-network/public-peers
 # Security warning
 All ports of HA will be available for **everyone** in Yggdrasil. Set strong password. Sometime I will fix it.
 # Thanks
 Thanks to author of https://github.com/luzifer-docker/yggdrasil,
-I took this as a basis
+I took his Dockerfile as base
