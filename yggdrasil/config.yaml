@@ -16,6 +16,6 @@ map:
 startup: services
 host_network: true
 devices:
-  - /dev/net/tun:/dev/net/tun:rwm
+  - /dev/net/tun
 privileged:
   - NET_ADMIN
