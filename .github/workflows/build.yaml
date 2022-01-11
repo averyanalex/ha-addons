@@ -1,4 +1,4 @@
-name: Builder
+name: Build 🔨
 
 env:
   BUILD_ARGS: ""
