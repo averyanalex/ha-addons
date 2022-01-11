@@ -1,4 +1,10 @@
-![builder](https://github.com/averyanalex/ha-addons/actions/workflows/builder.yaml/badge.svg)
+![Build](https://github.com/averyanalex/ha-addons/actions/workflows/build.yaml/badge.svg)
+![Stars](https://img.shields.io/github/stars/averyanalex/ha-addons?color=brightgreen)
+![Last commit](https://img.shields.io/github/last-commit/averyanalex/ha-addons?color=brightgreen)
+
+
 # Averyanalex's HA Addons
 This repository contains addons that I made to make life easier.
-At this moment there is only Yggdrasil, but in feature (maybe) there will be another addons
+
+Addons at this moment:
+* Yggdrasil
