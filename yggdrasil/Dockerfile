@@ -4,7 +4,7 @@ ARG BUILD_ARCH
 # compile yggdrasil
 FROM golang:alpine as builder
 ENV LANG C.UTF-8
-ENV YGGDRASIL_VERSION=0.4.2
+ENV YGGDRASIL_VERSION=0.4.3
 
 WORKDIR /build
 RUN apk --no-cache add build-base git \
