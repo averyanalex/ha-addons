@@ -8,9 +8,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   init:
@@ -54,6 +51,7 @@ jobs:
           else
             echo "No add-on had any monitored files changed (${{ env.MONITORED_FILES }})";
           fi
+
   build:
     needs: init
     runs-on: ubuntu-latest
