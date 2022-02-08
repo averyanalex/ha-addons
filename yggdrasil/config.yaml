@@ -1,6 +1,7 @@
 name: Yggdrasil
 version: "0.4.3-popura1-1"
 slug: yggdrasil
+stage: experimental
 description: Connect to HA remotely via Yggdrasil
 url: "https://github.com/averyanalex/ha-addons/tree/main/yggdrasil"
 arch:
