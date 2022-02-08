@@ -4,11 +4,11 @@ ARG BUILD_ARCH
 # compile yggdrasil
 FROM golang:alpine as builder
 ENV LANG C.UTF-8
-ENV YGGDRASIL_VERSION=0.4.3
+ENV YGGDRASIL_VERSION=0.4.3+popura1
 
 WORKDIR /build
 RUN apk --no-cache add build-base git \
- && git clone "https://github.com/yggdrasil-network/yggdrasil-go.git" \
+ && git clone "https://github.com/popura-network/Popura.git" yggdrasil-go \
  && cd yggdrasil-go \
  && git reset --hard v${YGGDRASIL_VERSION} \
  && GOARCH=$BUILD_ARCH ./build
