@@ -10,7 +10,7 @@ arch:
   - amd64
   - i386
 init: false
-image: "ghcr.io/averyanalex/{arch}-ha-yggdrasil"
+image: "ghcr.io/averyanalex/ha-yggdrasil-{arch}"
 map:
   - config:rw
 startup: services
