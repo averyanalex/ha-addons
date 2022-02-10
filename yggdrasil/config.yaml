@@ -1,5 +1,5 @@
 name: Yggdrasil
-version: "0.4.3-popura1-1"
+version: "0.4.3-popura1-2"
 slug: yggdrasil
 stage: experimental
 description: Connect to HA remotely via Yggdrasil
