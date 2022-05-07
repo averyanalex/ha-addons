@@ -3,8 +3,8 @@
 ![Last commit](https://img.shields.io/github/last-commit/averyanalex/ha-addons?color=brightgreen)
 
 
-# Averyanalex's HA Addons
-This repository contains addons that I made to make life easier.
+# AveryanAlex's Home Assistant Addons
+This repository contains addons I created for myself and want to share.
 
 Addons at this moment:
 * Yggdrasil
